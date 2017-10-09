@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+</body>
+</html>
+<script type="text/javascript">
+    //方法1
+    var arr=[2,4,5,7,6,4,5];
+    function quChong(brr){
+        var crr=[];
+        for(var i=0;i<brr.length;i++){
+            if(crr.indexOf(brr[i])==-1){
+                crr.push(brr[i])
+            }
+        }
+        return crr;
+    }
+    console.log(quChong(arr))
+    //方法2
+    var ar=[5,6,7,8,5,6,7];
+    function qu(br){
+        var cr=[];
+        for(var i=0;i<brr.length;i++){
+            if(cr[i]!=br[i]){
+                cr.join(brr[i])
+            }else{
+                return -1;
+            }
+        }
+        return cr;
+
+    }
+    console.log(quChong(ar))
+</script>
